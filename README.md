@@ -151,6 +151,7 @@ endmodule
 ### Logic Diagram:
 ![image](https://github.com/Nandhak23/VLSI-LAB-EXP-4-/assets/160568515/637add02-e848-4f74-a8b8-9e183a68df4b)
 ### Verilog Code:
+```
 module mod10(clk,rst,out);
 input clk,rst;
 output reg [3:0]out;
@@ -162,6 +163,7 @@ else
 out=out+1;
 end
 endmodule
+```
 ### Output:
 ![image](https://github.com/Nandhak23/VLSI-LAB-EXP-4-/assets/160568515/20fb126a-6ff9-48a3-876f-64c9b710f28c)
 
